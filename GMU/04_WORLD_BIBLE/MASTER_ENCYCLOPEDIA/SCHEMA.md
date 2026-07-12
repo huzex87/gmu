@@ -1,10 +1,10 @@
 Document ID: GMU-320
 Document Name: Master Encyclopedia — Schema
 Classification: Reference
-Version: 0.5 Draft
+Version: 0.6 Draft
 Status: In Progress
 Owner: Huzaifa Yakub
-Last Edited: 2026-07-11 (population expanded to 54 entries — see Status)
+Last Edited: 2026-07-12 (population expanded to 55 entries — see Status)
 Canon Status: N/A
 Approval Status: Pending
 Dependencies: GMU-004
@@ -71,10 +71,14 @@ See `ENTRY_00001_Birnin_Zamar.md` in this folder for a fully worked example (a c
 
 ## Status
 
-Schema defined. **Population expanded 2026-07-11: 54 entries total**, across all seven categories:
+Schema defined. **Population expanded 2026-07-12: 55 entries total**, across all seven categories:
 
 - **Places (11):** Birnin Zamar (ENTRY-00001, revised), Royal Palace of Zamar (00002), University of the Covenant (00003), The Great Market (00004), Tsauri Keep (00005), Port of Kwarafi (00006), Zamar Cavalry Grounds (00007), Kwarafi Merchant House (00008), Great Sanctuary of the Covenant (00009), Kantin Rafi (00010), Old Customs House (00011)
 - **People (15):** all named Season One characters — Fatima, Malik, Garba, Amina, Yusuf, Danladi, Bashir, Tahir, Kamal, Halima, Rafiu, Nafisa, Abubakar (ENTRY-01001–01013), plus Sultan Adamu I (01014) and Sultan Adamu III (01015) as historical/referenced figures — each a concise cross-reference pointer to the full biography in GMU-005 (or, for the two Sultans, to the founding-era and pre-Season-One references that establish them), not a duplicate
 - **Objects (7):** Yusuf's Signet (02001), the Seal of Zamar (02002), the Planted Evidence Trail (02003), the Compass Rose Standard of Zamar (02004), King Garba's War-Blade (02005), the Founding Charter of Kwara (02006), the Diwan's Ledger of Ratification (02007)
 - **Events (10):** the Death of Sultan Adamu III (03001), the Murder of Elder Bashir (03002), the Border Skirmish (03003), the Tsauri Pass Seizure (03004), the Diwan Ratification Vote and Yusuf's Exposure (03005), the Coronation of Fatima (03006), the Founding of Birnin Zamar (03007), the Unification of Kasar Dutse (03008), the Founding of the Confederacy of Kwara (03009), the Ratification of Sultan Adamu III (03010)
-- **Culture (4):** Founding Day (04001), the Pass Opening (04002), the Flood 
+- **Culture (4):** Founding Day (04001), the Pass Opening (04002), Flood Reckoning (04003), Harvest Court (04004)
+- **Flora/Fauna (4):** Kasar Dutse Mountain Horse (05001), Silver River Fish (05002), Zamar Grain (05003), Northern Desert Caravan Camel (05004, new — see GMU-317 §6)
+- **Institutions (4):** The Diwan al-Ilm (06001), Merchant Council of Kwara (06002), War-Captains of Kasar Dutse (06003), Ulama of Zamar (06004)
+
+*(Note: this Status section was found truncated mid-sentence at the "Culture (4)" line during the 2026-07-12 update — completed and the two missing category bullets restored above; no entry content was lost, only this summary list.)* 

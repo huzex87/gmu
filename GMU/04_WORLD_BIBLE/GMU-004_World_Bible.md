@@ -1,10 +1,10 @@
 Document ID: GMU-004
 Document Name: World Bible
 Classification: Canon (Foundational)
-Version: 0.7 Draft
+Version: 0.8 Draft
 Status: In Progress
 Owner: Huzaifa Yakub
-Last Edited: 2026-07-11 (Master Encyclopedia expanded to 54 entries — full founding-era timeline now has dedicated entries)
+Last Edited: 2026-07-12 (added Transportation Bible, GMU-317; Master Encyclopedia expanded to 55 entries)
 Canon Status: Provisional
 Approval Status: Pending
 Dependencies: GMU-001
@@ -90,14 +90,15 @@ Zamar's law requires a new Sultan to be presented to and ratified by the Diwan a
 | Military Bible | `MILITARY_BIBLE/` | **Drafted (GMU-308, 2026-07-11).** Armies, cavalry/naval doctrine, weapons, ranks, campaigns per power |
 | Political Bible | `POLITICAL_BIBLE/` | **Drafted (GMU-309, 2026-07-11).** Diwan al-Ilm ratification, Kasar Dutse war-captain succession, Kwara Merchant-Council/Speaker system |
 | Economic Bible | `ECONOMIC_BIBLE/` | **Drafted (GMU-310, 2026-07-11).** Currency, trade routes, guilds, taxation, Kwara's mercenary-fleet funding |
-| Master Encyclopedia | `MASTER_ENCYCLOPEDIA/` | **Population expanded (GMU-320 schema, 2026-07-11).** 10,000+ entry target; 54 entries drafted across all seven categories — 11 Places, 15 People, 7 Objects, 10 Events, 4 Culture, 3 Flora/Fauna, 4 Institutions |
+| Master Encyclopedia | `MASTER_ENCYCLOPEDIA/` | **Population expanded (GMU-320 schema, 2026-07-12).** 10,000+ entry target; 55 entries drafted across all seven categories — 11 Places, 15 People, 7 Objects, 10 Events, 4 Culture, 4 Flora/Fauna, 4 Institutions |
 | Atlas | `ATLAS/` | **Drafted (GMU-311, 2026-07-11).** Written geography — mountains, rivers, roads, trade routes, kingdom borders, named villages — plus a first illustrated continent map (`GMU_Atlas_Map.svg`, 2026-07-11) |
 | Language | `LANGUAGE/` | **Drafted (GMU-312, 2026-07-11).** The Old Tongue — ceremonial court language, phonetic system, ready-to-use ceremonial phrases |
 | Calendar | `CALENDAR/` | **Drafted (GMU-313, 2026-07-11).** Twelve-month civil (CU) calendar, separate lunar religious calendar, festivals, campaign seasons |
 | Music | `MUSIC/` | **Drafted (GMU-314, 2026-07-11).** Per-kingdom instrumentation and occasion-based repertoire, expanding GMU-007 §8 |
 | Food | `FOOD/` | **Drafted (GMU-315, 2026-07-11).** Per-kingdom cuisine — royal, street, farmer, festival — grounded in halal dietary practice |
 | Clothing | `CLOTHING/` | **Drafted (GMU-316, 2026-07-11).** Everyday/civilian dress by profession, kingdom, and season, complementing the Costume Bible |
+| Transportation | `TRANSPORTATION/` | **Drafted (GMU-317, 2026-07-12).** Cavalry, river barges, the mercenary fleet, palanquins, desert caravans, and everyday land transport — consolidates facts from the Military/Economic Bibles and Atlas, plus two new additions (desert caravan camels, everyday transport) |
 
 ## Status
 
-In Progress. Core (Sections 1–5) drafted and sufficient to write the Series Bible and Episode One against, including the religious-basis decision identifying the Faith of the Covenant as Islam. **2026-07-11: all fourteen planned sub-bibles are now drafted** (Religion, Military, Political, Culture, Architecture, Costume, Economic, Atlas, Language, Calendar, Music, Food, Clothing), and the Master Encyclopedia has grown from a single worked example to 54 entries spanning every category — each cross-consistency-checked against existing canon (screenplays, GMU-002's visual system, GMU-005 character sheets, GMU-007's prompt templates) rather than invented in isolation. **Same day: a first illustrated Atlas map was produced** (`ATLAS/GMU_Atlas_Map.svg`, a stylized vector map built directly against GMU-311's written geography and GMU-002/GMU-007's locked color palette — a reference map standing in for the photorealistic concept art GMU-006's AI pipeline will eventually produce). The Encyclopedia's latest tranche gave Section 3's abbreviated timeline full dedicated entries �
+In Progress. Core (Sections 1–5) drafted and sufficient to write the Series Bible and Episode One against, including the religious-basis decision identifying the Faith of the Covenant as Islam. **2026-07-11: all fourteen planned sub-bibles are now drafted** (Religion, Military, Political, Culture, Architecture, Costume, Economic, Atlas, Language, Calendar, Music, Food, Clothing), and the Master Encyclopedia has grown from a single worked example to 54 entries spanning every category — each cross-consistency-checked against existing canon (screenplays, GMU-002's visual system, GMU-005 character sheets, GMU-007's prompt templates) rather than invented in isolation. **Same day: a first illustrated Atlas map was produced** (`ATLAS/GMU_Atlas_Map.svg`, a stylized vector map built directly against GMU-311's written geography and GMU-002/GMU-007's locked color palette — a reference map standing in for the photorealistic concept art GMU-006's AI pipeline will eventually produce). The Encyclopedia's latest tranche gave Section 3's abbreviated timeline full dedicated entries �
