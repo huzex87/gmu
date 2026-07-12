@@ -1,0 +1,151 @@
+<svg viewBox="0 0 1000 760" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Map of Afrasah — the Sahel Crescent</title>
+<desc>Illustrated map showing the three powers of the Sahel Crescent: the Sultanate of Zamar, the Kingdom of Kasar Dutse, and the River Confederacy of Kwara, with capitals, the mountain pass, the river, trade routes, and the border village of Kantin Rafi.</desc>
+
+<defs>
+  <pattern id="desertHatch" patternUnits="userSpaceOnUse" width="14" height="14" patternTransform="rotate(35)">
+    <rect width="14" height="14" fill="#EDE3CE"/>
+    <line x1="0" y1="0" x2="0" y2="14" stroke="#DED0AE" stroke-width="2"/>
+  </pattern>
+  <pattern id="mountainHatch" patternUnits="userSpaceOnUse" width="20" height="16">
+    <rect width="20" height="16" fill="#3A3A3C"/>
+    <path d="M0 16 L5 6 L10 16 Z" fill="#4A4A4D"/>
+    <path d="M10 16 L15 4 L20 16 Z" fill="#454547"/>
+  </pattern>
+  <pattern id="waterRipple" patternUnits="userSpaceOnUse" width="24" height="10">
+    <rect width="24" height="10" fill="#7FA9C7"/>
+    <path d="M0 5 Q6 2 12 5 T24 5" stroke="#9CC1DB" stroke-width="1.4" fill="none"/>
+  </pattern>
+  <radialGradient id="oceanFade" cx="50%" cy="30%" r="75%">
+    <stop offset="0%" stop-color="#BFE0EE"/>
+    <stop offset="100%" stop-color="#9FCBDF"/>
+  </radialGradient>
+</defs>
+
+<rect width="1000" height="760" fill="#F7F2E7"/>
+
+<text x="500" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="#2B2620" letter-spacing="2">AFRASAH</text>
+<text x="500" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#6B5F4C" letter-spacing="4">THE SAHEL CRESCENT</text>
+<line x1="370" y1="86" x2="630" y2="86" stroke="#B8A97E" stroke-width="1.5"/>
+
+<!-- Northern desert -->
+<rect x="0" y="110" width="1000" height="140" fill="url(#desertHatch)"/>
+<text x="500" y="132" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#8A7A54" letter-spacing="3">THE NORTHERN DESERT</text>
+
+<!-- Southern ocean -->
+<rect x="0" y="660" width="1000" height="100" fill="url(#oceanFade)"/>
+<text x="500" y="742" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#4A6E82" letter-spacing="3">SOUTHERN COASTLINE</text>
+
+<!-- ===================== KASAR DUTSE (north highland) ===================== -->
+<path d="M 300 250 L 700 250 L 730 340 L 640 400 L 500 430 L 360 400 L 270 340 Z" fill="url(#mountainHatch)" stroke="#7A2323" stroke-width="4"/>
+<text x="500" y="290" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#F2DCA0" letter-spacing="2">KASAR DUTSE</text>
+<text x="500" y="310" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#D9B98C">"Land of Stone"</text>
+
+<!-- The Pass (chokepoint, narrow corridor south into Zamar) -->
+<path d="M 460 400 L 540 400 L 560 470 L 440 470 Z" fill="#5C5F62" stroke="#1C1B19" stroke-width="2.5"/>
+<text x="500" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" fill="#F4EFE4" letter-spacing="1">THE PASS</text>
+
+<!-- Tsauri Keep -->
+<g>
+  <rect x="486" y="330" width="28" height="28" fill="#7A2323" stroke="#1C1B19" stroke-width="2" transform="rotate(45 500 344)"/>
+  <circle cx="500" cy="344" r="5" fill="#F2DCA0"/>
+  <text x="500" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#2B2620">Tsauri Keep</text>
+  <text x="500" y="394" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#5C5F62">capital</text>
+</g>
+
+<!-- ===================== ZAMAR (central) ===================== -->
+<path d="M 270 340 L 730 340 L 640 400 L 560 470 L 440 470 L 360 400 Z" fill="#EFE3C6" stroke="#2E3A6E" stroke-width="0"/>
+<path d="M 200 470 L 800 470 L 760 590 L 500 630 L 240 590 Z" fill="#EFE3C6" stroke="#2E3A6E" stroke-width="4"/>
+<text x="500" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#2E3A6E" letter-spacing="2">ZAMAR</text>
+<text x="500" y="582" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#8A6D2E">The Sultanate</text>
+
+<!-- The River, flowing from north edge of Zamar through to the delta -->
+<path d="M 500 470 C 495 500, 520 520, 505 550 C 495 575, 515 590, 500 610 C 480 640, 510 660, 495 690" fill="none" stroke="url(#waterRipple)" stroke-width="16" stroke-linecap="round"/>
+<path d="M 500 470 C 495 500, 520 520, 505 550 C 495 575, 515 590, 500 610 C 480 640, 510 660, 495 690" fill="none" stroke="#5E8FB0" stroke-width="16" stroke-linecap="round" opacity="0.25"/>
+
+<!-- Birnin Zamar (capital) -->
+<g>
+  <circle cx="500" cy="525" r="16" fill="#2E3A6E" stroke="#C9A24B" stroke-width="3"/>
+  <path d="M500 517 L503 523 L509 524 L505 528 L506 534 L500 531 L494 534 L495 528 L491 524 L497 523 Z" fill="#C9A24B"/>
+  <text x="500" y="502" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#2B2620">Birnin Zamar</text>
+  <text x="500" y="516" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#6B5F4C"> </text>
+</g>
+
+<!-- Great Market marker, near capital -->
+<g>
+  <rect x="546" y="518" width="14" height="14" fill="#C9A24B" stroke="#2E3A6E" stroke-width="2"/>
+  <text x="553" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#2B2620">Great</text>
+  <text x="553" y="558" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#2B2620">Market</text>
+</g>
+
+<!-- University marker -->
+<g>
+  <circle cx="440" cy="520" r="7" fill="#F4EFE4" stroke="#2E3A6E" stroke-width="2"/>
+  <text x="440" y="545" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#2B2620">University</text>
+</g>
+
+<!-- Kantin Rafi border village, between Zamar and Kasar Dutse -->
+<g>
+  <circle cx="380" cy="435" r="6" fill="#EFE3C6" stroke="#5C5F62" stroke-width="2"/>
+  <text x="380" y="418" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#4A4436">Kantin Rafi</text>
+</g>
+
+<!-- Old Customs House, downriver from capital -->
+<g>
+  <rect x="493" y="600" width="12" height="12" fill="#8A6D2E" stroke="#2B2620" stroke-width="1.5"/>
+  <text x="499" y="624" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#2B2620">Old Customs House</text>
+</g>
+
+<!-- ===================== KWARA (south, river delta) ===================== -->
+<path d="M 240 590 L 760 590 L 820 650 L 700 700 L 500 715 L 300 700 L 180 650 Z" fill="#DCEEE6" stroke="#1F5C4A" stroke-width="4"/>
+<text x="500" y="655" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#1F5C4A" letter-spacing="2">KWARA</text>
+<text x="500" y="676" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#3E7C68">River Confederacy</text>
+
+<!-- Delta fan (river splitting into canals) -->
+<path d="M497 690 L 460 705 M497 690 L 500 715 M497 690 L 535 705" stroke="#7FA9C7" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+<!-- Port of Kwarafi -->
+<g>
+  <path d="M500 692 L508 700 L500 708 L492 700 Z" fill="#1F5C4A" stroke="#B8BFC4" stroke-width="2.5"/>
+  <text x="500" y="683" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#1B3F35">Port of Kwarafi</text>
+</g>
+
+<!-- ===================== Trade routes ===================== -->
+<path d="M500 250 L500 470" stroke="#8A6D2E" stroke-width="2.5" stroke-dasharray="7,5" fill="none"/>
+<path d="M500 525 L500 692" stroke="#3E7C68" stroke-width="2.5" stroke-dasharray="7,5" fill="none"/>
+
+<!-- ===================== Legend ===================== -->
+<g transform="translate(40,270)">
+  <rect x="-16" y="-24" width="230" height="168" fill="#FBF7EC" stroke="#B8A97E" stroke-width="1.5" rx="4"/>
+  <text x="0" y="0" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#2B2620" letter-spacing="1">LEGEND</text>
+
+  <rect x="0" y="14" width="14" height="14" fill="#2E3A6E"/>
+  <text x="22" y="25" font-family="Georgia, serif" font-size="11" fill="#2B2620">Capital city</text>
+
+  <rect x="0" y="36" width="14" height="14" fill="#8A6D2E"/>
+  <text x="22" y="47" font-family="Georgia, serif" font-size="11" fill="#2B2620">Notable site</text>
+
+  <circle cx="7" cy="65" r="6" fill="#EFE3C6" stroke="#5C5F62" stroke-width="2"/>
+  <text x="22" y="69" font-family="Georgia, serif" font-size="11" fill="#2B2620">Village</text>
+
+  <line x1="0" y1="87" x2="16" y2="87" stroke="#8A6D2E" stroke-width="2.5" stroke-dasharray="5,4"/>
+  <text x="22" y="91" font-family="Georgia, serif" font-size="11" fill="#2B2620">Northern Route</text>
+
+  <line x1="0" y1="107" x2="16" y2="107" stroke="#3E7C68" stroke-width="2.5" stroke-dasharray="5,4"/>
+  <text x="22" y="111" font-family="Georgia, serif" font-size="11" fill="#2B2620">River Route</text>
+
+  <rect x="0" y="120" width="14" height="10" fill="url(#waterRipple)"/>
+  <text x="22" y="129" font-family="Georgia, serif" font-size="11" fill="#2B2620">The River</text>
+</g>
+
+<!-- Compass rose -->
+<g transform="translate(910,150)">
+  <circle cx="0" cy="0" r="34" fill="#FBF7EC" stroke="#B8A97E" stroke-width="1.5"/>
+  <path d="M0 -26 L7 0 L0 26 L-7 0 Z" fill="#8A6D2E"/>
+  <path d="M-26 0 L0 -7 L26 0 L0 7 Z" fill="#C9A24B" opacity="0.6"/>
+  <text x="0" y="-32" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" fill="#2B2620">N</text>
+</g>
+
+<!-- Frame -->
+<rect x="6" y="6" width="988" height="748" fill="none" stroke="#B8A97E" stroke-width="2"/>
+</svg>
