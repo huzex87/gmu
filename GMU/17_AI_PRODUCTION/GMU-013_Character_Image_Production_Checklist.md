@@ -45,17 +45,19 @@ This forces Midjourney to hold the character's face and costume steady. Never de
 
 ## CHARACTER 1 of 13 — Fatima bint Adamu (GMU-401) — HIGHEST PRIORITY
 
-- [ ] Locked
+- [x] Locked — generated 2026-07-13 via Higgsfield (Nano Banana Pro, 4K, image-referenced against the user's approved GMU-401 design sheet, skin tone lightened per director note, wardrobe/signet ring/sash matched exactly)
 
 **PROMPT TO PASTE:**
 > Portrait and full-body reference turnaround of a tall, composed West African woman in her late twenties, dark eyes, tight braided hair under a simple indigo headwrap, wearing a floor-length deep indigo scholar's robe with geometric gold trim at cuffs and hem, a gold sash worn diagonally across the chest, minimal jewelry, a single signet ring. Calm, deliberate posture, faint appraising expression. Sahel-inspired royal-scholarly setting, warm indigo and gold color palette, cinematic lighting, photorealistic, consistent character reference sheet, neutral studio background, front view / three-quarter view / side profile, photorealistic, cinematic quality, natural volumetric lighting, rich but grounded color grading, Sahel-inspired West African aesthetic, culturally specific and respectful detail, sharp fine detail on fabric texture, no anachronistic elements, no modern text or logos.
 
 **EXACT FILENAME:** `Fatima_bint_Adamu_REFERENCE_v1.png`
 **EXACT FOLDER:** `05_CHARACTER_BIBLE/AI_MODEL_LIBRARY/`
-**LOCK URL (fill in after generating):** _______________________________
+**LOCK URL (fill in after generating):** Higgsfield job `aa2f817c-1982-458f-b087-1e872bf4038b` (upscaled to 4K via job `a6251237-7ead-44a2-9596-c7b608dd6d57`). Reference this job_id as a `medias` input (role `image`) on any future Higgsfield generation of Fatima to hold her face/costume steady — the Higgsfield equivalent of `--cref`.
+
+**Note on tool substitution:** This checklist was originally written for Midjourney/FLUX. Character 1 was actually produced with the user's connected Higgsfield account instead — model Nano Banana Pro (Google), text+image-referenced generation, 4 review options generated then the user's pick upscaled to 4K. The `--no`/`--cref` Midjourney syntax in these prompts was translated to plain-language negative/consistency instructions for Higgsfield; the underlying creative description was not altered.
 
 **VARIANT — Mourning overlay (Act Two onward, generate second, save separately):**
-- [ ] Locked (variant)
+- [x] Locked (variant) — generated 2026-07-13 via Higgsfield Nano Banana 2 image-edit (job `ecc50e67-3ef5-4418-a35e-13972029948e`, upscaled to 4K via job `d38976e9-5b14-4164-9d5c-7cc55c3fc551`), edited directly from her locked base image for face/costume consistency
 
 **PROMPT TO PASTE (variant):**
 > Portrait and full-body reference turnaround of a tall, composed West African woman in her late twenties, dark eyes, tight braided hair under a simple indigo headwrap, wearing a floor-length deep indigo scholar's robe with geometric gold trim at cuffs and hem, a gold sash worn diagonally across the chest, layered under a rough-textured, unbleached off-white mourning wrap over the indigo robe, headwrap uncovered by the wrap's edge, minimal jewelry, a single signet ring. Calm, deliberate posture, faint appraising expression. Sahel-inspired royal-scholarly setting, warm indigo and gold color palette, cinematic lighting, photorealistic, consistent character reference sheet, neutral studio background, front view / three-quarter view / side profile, natural volumetric lighting, rich but grounded color grading, no anachronistic elements, no modern text or logos. --cref [Fatima's LOCK URL from above] --cw 90
@@ -67,17 +69,17 @@ This forces Midjourney to hold the character's face and costume steady. Never de
 
 ## CHARACTER 2 of 13 — Malik ibn Adamu (GMU-402) — HIGHEST PRIORITY
 
-- [ ] Locked
+- [x] Locked — generated 2026-07-13 via Higgsfield (Nano Banana Pro base, then Nano Banana 2 image-edit pass to add princely regalia — signet ring with Zamar sigil, house-crest collar pin, gold cord shoulder trim, edge-piping — matching Fatima's established heraldic language, per director note)
 
 **PROMPT TO PASTE:**
 > Portrait and full-body reference turnaround of a West African man in his mid-twenties, athletic cavalry-officer build, close-cropped hair, small training scars on the knuckles and jaw, warm and open expression. Wearing practical dust-colored leather training gear with forearm guards. Second variant: dark Zamar cavalry command tunic with gold braid at shoulders and cuffs. Sahel-inspired military setting, warm lighting, photorealistic, consistent character reference sheet, neutral studio background, front view / three-quarter view / side profile, cinematic quality, natural volumetric lighting, rich but grounded color grading, Sahel-inspired West African aesthetic, sharp fine detail on fabric texture, no anachronistic elements, no modern text or logos.
 
 **EXACT FILENAME:** `Malik_ibn_Adamu_REFERENCE_v1.png`
 **EXACT FOLDER:** `05_CHARACTER_BIBLE/AI_MODEL_LIBRARY/`
-**LOCK URL:** _______________________________
+**LOCK URL:** Final regalia'd version: Higgsfield job `f56229d4-18f3-4499-80a8-2cd31ce82c53` (upscaled to 4K via job `f400d09a-4d79-4cb3-96cb-0480bfc4664b`). This is the canonical file, edited from base job `11309ccb-372e-4134-b10d-07f8dc15a7cf`. Reference the final job_id as a `medias` input (role `image`) on any future generation of Malik to hold his face/costume/regalia steady.
 
 **VARIANT — Mourning wrap + red sash (Act Two onward):**
-- [ ] Locked (variant)
+- [x] Locked (variant) — generated 2026-07-13 via Higgsfield Nano Banana 2 image-edit (job `8ac83812-be49-4432-9fc1-ace35d5558a5`, upscaled to 4K via job `48cea261-beda-4dba-8e59-e007d1310037`), edited directly from his locked regalia'd base image for face/costume consistency
 
 **PROMPT TO PASTE (variant):**
 > Portrait and full-body reference turnaround of a West African man in his mid-twenties, athletic cavalry-officer build, close-cropped hair, small training scars on the knuckles and jaw. Wearing dark Zamar cavalry command tunic with gold braid at shoulders and cuffs, layered under a rough-textured, unbleached off-white mourning wrap over the cavalry tunic, a single narrow red sash crossing the chest. Sahel-inspired military setting, warm lighting, photorealistic, consistent character reference sheet, neutral studio background, front view / three-quarter view / side profile, no anachronistic elements, no modern text or logos. --cref [Malik's LOCK URL from above] --cw 90
@@ -89,17 +91,17 @@ This forces Midjourney to hold the character's face and costume steady. Never de
 
 ## CHARACTER 3 of 13 — Elder Bashir (GMU-407) — HIGHEST PRIORITY (episode's emotional pivot)
 
-- [ ] Locked
+- [x] Locked — generated 2026-07-13 via Higgsfield (Nano Banana Pro base, then Nano Banana 2 image-edit pass to elevate him to a royal elder statesman look — Hausa-style rawani turban, richer embroidered robe, ring, and a ceremonial pendant of Diwan rank — per director note)
 
 **PROMPT TO PASTE:**
 > Portrait and full-body reference turnaround of an elderly West African man in his seventies, gentle warm eyes, neat white beard, slightly stooped posture, moves slowly. Wearing unornamented muted warm-toned Diwan scholar's robes with no rank sash. Sahel-inspired scholarly setting, warm candlelit interior lighting, photorealistic, consistent character reference sheet, neutral studio background, front view / three-quarter view / side profile, cinematic quality, natural volumetric lighting, rich but grounded color grading, Sahel-inspired West African aesthetic, sharp fine detail on fabric texture, no anachronistic elements, no modern text or logos.
 
 **EXACT FILENAME:** `Elder_Bashir_REFERENCE_v1.png`
 **EXACT FOLDER:** `05_CHARACTER_BIBLE/AI_MODEL_LIBRARY/`
-**LOCK URL:** _______________________________
+**LOCK URL:** Final royal-elder version: Higgsfield job `53478cac-46a5-4a17-a9ef-85dd31bd448d` (upscaled to 4K via job `14fa149d-a548-4e41-897a-6bb2b5966c0f`). This is the canonical file, edited from base job `1ff1c313-f004-4417-88d3-3ecd51391fe6`. Reference the final job_id as a `medias` input (role `image`) on any future generation of Bashir (including the death-scene variant, which should probably drop the turban/regalia for the somber staging — director's call) to hold his face steady.
 
 **VARIANT — Death-scene staging (Act Four, generate second):**
-- [ ] Locked (variant)
+- [x] Locked (variant) — generated 2026-07-13 via Higgsfield Nano Banana 2 image-edit (job `4fb031ac-b421-41eb-abc8-eae49169dca8`, upscaled to 4K via job `3ed51978-e63d-4a04-8db0-7d80d4c95076`), edited from his locked royal-elder base image with the turban/ceremonial pendant removed for this private, non-ceremonial scene (director's call, per note above)
 
 **PROMPT TO PASTE (variant):**
 > Elderly West African man in his seventies, neat white beard, slumped forward peacefully over a desk, unornamented muted warm-toned Diwan scholar's robes. Cold dawn light through a window, an overturned inkwell as the only visible disturbance in frame, non-graphic and respectful staging, quiet and still, photorealistic, cinematic, no anachronistic elements, no modern text or logos, no gratuitous graphic detail. --cref [Bashir's LOCK URL from above] --cw 85
